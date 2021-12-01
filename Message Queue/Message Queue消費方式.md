@@ -1,0 +1,9 @@
+# Push
+當MQ收到新資料後，主動調用Consumer的類似onMessage接口來通知處裡，這種消費方法Consumer只能被動等待通知
+
+push就是一個口令一個動作
+
+# Pull
+Consumer用輪詢的方式調用MQ的接口來拿新資料，相對的Client的主動權多很多
+
+pull就是主動打去問，一直問一直爽
